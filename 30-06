@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kichi Oma</title>
+</head>
+<body>
+    <header>
+        <h1 id="topo"Kichi site</h1>
+
+        <nav>
+            <a href="#sobre">Sobre o Kichi</a>
+            <a href="hobbies">Hobbies do Kichi</a>
+            <a href="https://github.com" target="_blank" rel="noopener noreferrer">GitHub</a>
+        </nav>
+    </header>
+    <main>
+        <section id="sobre"
+            <h2>Sobre o Kichi</h2>
+            <img src="KO.jfif" alt="Foto de poerfil do Kichi">
+            <p class="descricao">O nome inteiro do Kichu é Kokivhi Oma. Ele em 18 anos e 1,56 metros de altura. sendo o Ultimate Líder Supremo da Academia Suprema para Jovens Dotados.</p>
+        </section>
+
+        <section id="hobbies">
+            <h2>Hobbies do Kichi</h2>
+            <ol start="1">
+                <li>Me amar.</li>
+                <li>Mentir para todos da Academia.</li>
+                <li>Fazer peguadinhas nos seus amigos.</li>
+                <li>Irritar e flertar com o Shuivhi Saihara.</li>
+                <li>Guardar os seus sentimentos para si mesmo.</li>
+            </ol>
+        </section>
+
+        <img src="download.jfif" 
+        alt="Fotinho do Kichi">
+    </main>
+    
+</body>
+</html>
