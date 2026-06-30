@@ -1,0 +1,71 @@
+!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cadastrar o Kokichi 30/06</title>
+</head>
+<body>
+    <h1>Cadastrando o Koki</h1>
+    <form>
+    
+        <label for="koki">Nome:</label>
+        <input type="text" name="name" id="nome" placeholder="Digite o nome do Koki aqui" required>
+
+        <label for="email">Email:</label>
+        <input type="email" name="email" id="email" placeholder="Digite o email do Koki aqui" required>
+
+        <label for="senha">Senha: </label>
+        <input type="password" name="password" id="password" placeholder="Digite a senha do Koki aqui" required>
+
+        <label for="date">Data de nascimento: </label>
+        <input type="date" name="date" id="date" required>
+
+        <label for="cidade">Cidade do Koki:</label>
+        <select name="cidade" id="Cidades do Koki">
+            <option>D.I.C.E</option>
+            <option>Líder Malignos.</option>
+            <option>Palhaço fazendo Palhaçadas totalmente Malignas.</option>
+        </select>
+
+        <label for="historico">Ele é o Mastermind?</label>
+        <input type="radio" name="historico">
+        Sim.
+
+        <input type="radio" name="historico">
+        Não.
+
+        <label for="genero">Qual o gênero dele?</label>
+        <input type="radio" name="ganero">
+        Masculino.
+
+        <input type="radio" name="ganero">
+        Feminino.
+
+        <input type="radio" name="ganero">
+        Outro.
+        <label>
+            <input type="checkbox" id="options">
+            Não aceito os termos.
+        </label>
+
+        <label>
+            Observação:
+        </label>
+
+        <textarea rows="4"></textarea>
+
+        <button type="submit">
+            Cadastrar Koki.
+        </button> 
+
+        <img src="oumakivb.jpg" alt="Kokichi Oma">
+        <img src="bem eu.jpg" alt="Kokichi Oma">
+        <img src="Danganronpa_V3_Opening_-_Kokichi_Oma_29.webp" alt="Kokichi Oma">
+
+
+    </form>
+
+</body>
+</html>
